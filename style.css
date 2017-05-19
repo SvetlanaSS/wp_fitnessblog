@@ -8,3 +8,25 @@
 .header-center {
   text-align: center;
 }
+
+.contact-form-title {
+  color: #958E8E;
+}
+
+.error{
+  padding: 5px 9px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 3px;
+}
+
+.success{
+  padding: 5px 9px;
+  border: 1px solid green;
+  color: green;
+  border-radius: 3px;
+  }
+
+form span{
+  color: red;
+}
