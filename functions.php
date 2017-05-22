@@ -1,7 +1,7 @@
 <?php
 
   function my_favicon() {
-    echo '<link rel="shortcut Icon" type="image/x-icon" href="'.get_bloginfo('wpurl').'img/favicon.png" />';
+    echo '<link rel="shortcut Icon" type="image/x-icon" href="'.get_bloginfo('wpurl').'/img/favicon.png" />';
   }
   add_action('wp_head', 'my_favicon');
 
